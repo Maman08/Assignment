@@ -1,0 +1,165 @@
+
+
+/* Container styles */
+.container-fluid {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Text color */
+  }
+  
+  /* Heading styles */
+  .weather-heading {
+   font-size: 45px;
+    text-shadow: 2px 2px 4px rgba(228, 112, 210, 0.808); /* Text shadow for heading */
+  }
+  
+  /* Input styles */
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Weather details styles */
+  .weather-details {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(190, 186, 186, 0.705); /* Box shadow for weather details */
+    padding: 20px;
+  
+  }
+  
+  /* Big icon styles */
+  .big-icon {
+    font-size: 48px;
+  }
+  
+  /* Forecast styles */
+  .forecast {
+    margin-top: 20px;
+  }
+  
+  /* Day heading styles */
+  .days {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(221, 215, 215, 0.8); /* Text shadow for day heading */
+  }
+  
+  /* Forecast item styles */
+  .forecast-item {
+    margin-bottom: 10px;
+  }
+  
+  /* Centered icon styles */
+  .centericon {
+    vertical-align: middle;
+  }
+  
+  /* Forecast items styles */
+  .forecast-items {
+    align-items: center;
+  }
+  
+  /* Day name styles */
+  .day-name {
+    text-transform: capitalize; /* Capitalize day name */
+  }
+  
+    .input-group {
+      margin-bottom: 20px;
+    }
+    
+    .weather-details {
+      margin-bottom: 20px;
+    }
+    
+    .big-icon {
+      font-size: 48px;
+    }
+    
+    .forecast {
+      margin-top: 20px;
+    }
+    
+    .days {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .forecast-item {
+      margin-bottom: 10px;
+    }
+    
+    .centericon {
+      vertical-align: middle;
+    }
+    
+    .forecast-items {
+      align-items: center;
+    }
+    
+  /* Background color and font color */
+  body {
+      background-color: #000;
+      color: white;
+    }
+    
+    /* Weather App container */
+    .container-fluid {
+      padding-top: 20px;
+    }
+    
+    /* Weather App title */
+    h4 {
+      color: #007bff;
+    }
+    
+    /* Search input and button */
+    .input-group {
+      margin-bottom: 20px;
+      color: rgb(170, 175, 180);
+    }
+    
+    .form-control {
+      background-color: #495057;
+      border-color: #495057;
+      color: white;
+    }
+    
+    .form-control:focus {
+      background-color: #495057;
+      color: white;
+    }
+    
+    
+    .centericon{
+      font-size: 5rem;
+    }
+  
+  
+    .forecast-items{
+      border-right:1px solid #333d3f ;
+    }
+  .bgdark{
+      background-color: #202c3c;
+  }
+
+  /* WeatherApp.css */
+/* WeatherApp.css */
+@keyframes rotate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg); /* Change to 360deg * number of rotations (2 rotations in this case) */
+    }
+  }
+  
+  .big-icon {
+    animation: rotate 1.3s linear forwards 2; /* Animation stops after 2 iterations */
+  }
+  
+  .moon{
+    color: #2a3b4d;
+  }
+  .icon-shadow {
+    filter: drop-shadow(0px 4px 4px rgba(165, 169, 174, 0.769));
+  }
+  

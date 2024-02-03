@@ -1,0 +1,81 @@
+.navbar {
+    height: 60px; /* Adjust the height as needed */
+    margin-bottom: 0; /* Remove the default margin */
+  }
+  
+  .navbar-brand h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    line-height: 60px; /* Center the text vertically within the navbar */
+  }
+
+.active{
+    color: #0c4b78;
+    transform: scale(1.1);
+  }
+  
+  .formContainer {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(to right, #0c4b78, #3d1444); /* Gradient background */
+    border-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#21254a" d="M0,224L120,202.7C240,181,480,139,720,144C960,149,1200,203,1320,229.3L1440,256L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>') 1; /* SVG wave border */
+    border-image-slice: 1;
+    border-image-repeat: round;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formContainer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .formContainer h2 {
+    font-size: 18px;
+    font-weight: medium;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .inputField {
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(204, 202, 202);
+    background-color:#21254a;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .signupButton {
+    background: linear-gradient(to right, #4e54c8, #6e3ed2); /* Gradient from violet to blue */
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+  }
+  
+  /* Hover effect: Darken the button on hover */
+  .signupButton:hover {
+    filter: brightness(0.9);
+  }
